@@ -1,4 +1,4 @@
-#大连理工大学自动联网脚本
+# 大连理工大学自动联网脚本
 
 ## requirements
 ```shell
@@ -19,6 +19,11 @@ sudo apt-get install chromium-chromedriver
 username = "22009549"  # 此处输入网络认证账号
 password = "abcdefgh"  # 此处输入网络认证密码
 ```
+
+## how to use
+开机后，用screen后台运行
+或者直接打开个终端一直运行【保证它不被关闭】
+
 ## 关于开机自启
 有心的同学可自行研究，我觉得不会断网和断电同时到来。
 
