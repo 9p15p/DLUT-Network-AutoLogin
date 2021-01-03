@@ -8,7 +8,6 @@ Created on Wed Jan 23 20:40:17 2019
 import time
 from selenium import webdriver
 import socket
-from PIL import Image,ImageEnhance
 
 
 def isNetOK(testserver):
@@ -77,7 +76,8 @@ while 1:
         # # 测试中发现，验证码部分可无。
         # # 如需使用，记得装pytesseract和tesseract-ocr
         # if isThereValidCode():
-        #     import pytesseract
+        #     import pytesseract        
+        #     from PIL import Image,ImageEnhance
         #     vaild_code = browser.find_element_by_id("validCode")        # 找到验证码的id
         #     vaild_code_tip = browser.find_element_by_id("validCode_tip")# 找到验证码的id的文本框
         #     valid_Image= browser.find_element_by_id("validImage")       # 验证码图片
