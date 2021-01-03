@@ -45,7 +45,7 @@ while 1:
         print("当前没网 " + date_time)
 
         url = "http://auth.dlut.edu.cn/"  # 如 https://10.108.255.12
-        username = "22009049"  # 此处输入网络认证账号
+        username = "22009549"  # 此处输入网络认证账号
         password = "nasdjs12"  # 此处输入网络认证密码
 
         # 关闭浏览器的信息提示，解决“Chrome正在收到自动测试软件的控制”遮蔽问题
