@@ -1,6 +1,6 @@
 # 大连理工大学自动联网脚本
 ## Notes
-有同学反应无法运行，目前都是应为Chrome-driver的版本。
+有同学反应无法运行，目前都是因为Chrome-driver的版本不对应。
 
 运行前请使用`pyhton test_version.py`进行测试。
 
