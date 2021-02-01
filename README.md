@@ -55,6 +55,7 @@ python dlut_autologin.py
 ![img_2.png](img_2.png)
 
 ![img_3.png](img_3.png)
+
 并点击`添加`，`关闭`
 ## 感谢原作者
 https://github.com/anruoran/Network-State-Detection-and-AutoLogin
