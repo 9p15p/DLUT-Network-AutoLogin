@@ -46,10 +46,10 @@ while 1:
     elif isOK==False:
         date_time = time.asctime(time.localtime(time.time()));
         print("当前没网 " + date_time)
-
+        f = open("user_passwd.txt")
+        username = f.readline()[9:-1]
+        password = f.readline()[9:-1]
         url = "http://auth.dlut.edu.cn/"  # 如 https://10.108.255.12
-        username = "22005549"  # 此处输入网络认证账号
-        password = "6546325s"  # 此处输入网络认证密码
 
         # 关闭浏览器的信息提示，解决“Chrome正在收到自动测试软件的控制”遮蔽问题
         option = webdriver.ChromeOptions()
