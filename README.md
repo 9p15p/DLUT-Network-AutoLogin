@@ -41,8 +41,8 @@ conda activate Network
 python dlut_autologin.py
 ```
 
-## 关于开机自启
-采用图形化的自启模式
+## 关于开机自启[Experimental]
+采用图形化的自启模式, 不确定每台电脑都能用
 
 请确保本工程安装在主目录`~`下，
 
