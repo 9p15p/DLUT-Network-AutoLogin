@@ -40,6 +40,12 @@ python dlut_autologin.py
 ## 关于开机自启
 采用图形化的自启模式
 
+请确保本工程安装在主目录`~`下，
+
+请确保anaconda也安装在主目录`~`下。
+
+![img_4.png](img_4.png)
+
 1. ubuntu搜索`startup application`或者`启动应用程序`，并点击进入
 
 ![img_1.png](img_1.png)
