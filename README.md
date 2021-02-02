@@ -4,7 +4,9 @@
 
 同时确保工程放在主目录`~`下。
 
-运行前请使用`pyhton test_version.py`以及`DLUT-Network-AutoLogin/dlut_autologin.sh`进行测试。
+运行前请使用`python DLUT-Network-AutoLogin/test_version.py`
+
+以及`DLUT-Network-AutoLogin/dlut_autologin.sh`进行测试。
 
 确保以上两个命令没有报错。
 
