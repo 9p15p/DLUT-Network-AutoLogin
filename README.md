@@ -1,8 +1,10 @@
 # 大连理工大学自动联网脚本
 ## Notes
-有同学反应无法运行，目前都是因为Chrome-driver的版本不对应。
+有同学反应无法运行，目前都是因为Chrome-driver的版本不对应,
 
-运行前请使用`pyhton test_version.py`进行测试。
+同时确保工程放在主目录`~`下。
+
+运行前请使用`pyhton test_version.py`以及`DLUT-Network-AutoLogin/dlut_autologin.sh`进行测试。
 
 如果这个没问题多半是没问题的。
 
