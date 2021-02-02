@@ -6,7 +6,7 @@
 
 运行前请使用`pyhton test_version.py`以及`DLUT-Network-AutoLogin/dlut_autologin.sh`进行测试。
 
-如果这个没问题多半是没问题的。
+确保以上两个命令没有报错。
 
 如果出现版本上的报错，请上网自行查找解决方案。
 

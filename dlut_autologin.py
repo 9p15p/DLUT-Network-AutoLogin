@@ -8,6 +8,7 @@ Created on Wed Jan 23 20:40:17 2019
 import time
 from selenium import webdriver
 import socket
+import sys
 
 
 def isNetOK(testserver):
@@ -46,7 +47,8 @@ while 1:
     elif isOK==False:
         date_time = time.asctime(time.localtime(time.time()));
         print("当前没网 " + date_time)
-        f = open("user_passwd.txt")
+        user_passwd_txt = sys.argv[0].replace('dlut_autologin.py','user_passwd.txt')
+        f = open(user_passwd_txt)
         username = f.readline()[9:-1]
         password = f.readline()[9:-1]
         url = "http://auth.dlut.edu.cn/"  # 如 https://10.108.255.12
